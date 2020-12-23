@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700&display=swap');
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+p{
+	font-family: 'Roboto Slab', serif;
+}
+
+#banner{
+	height: 80vh;
+	width: 100%;
+	padding-top: 20px;
+	background-image: url(../img/welcome_bg_2.png); 
+	background-image: cover;
+	background-position: right;
+}
+
+.main_menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.main_navbar li{
+	padding: 0px 10px;
+}
+
+.main_navbar li a{
+	color:#2c2e30;
+	font-family: 'Poppins', sans-serif;
+}
+
+.social_icon .fab,
+.social_icon .fas{
+	padding: 15px;
+}
+
+.header_text{
+	padding-top: 30%;
+}
+
+.header_text p{
+	color: #565656;
+}
+
+.header_text h1{
+	font-size: 56px;
+	font-weight: 700;
+}
+
+
+.header_text a{
+	width: 180px;
+	height: 48px;
+	font-size: 22px;
+	position: relative;
+	background: white;
+	margin:10px;
+	border-radius: 20px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.header_text a:after{
+	content: '';
+	width: 103%;
+	height: 114%;
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	padding: 25px;
+	background: linear-gradient(45deg, purple, blue);
+	z-index: -1;
+	border-radius: 20px;
+}
+
+.header_text a:hover{
+	color:white;
+	background:linear-gradient(45deg, purple, blue);
+}
+
+.header_svg{
+	width: 100%;
+	height: 160px;
+}
+
+
+/* about */
+
+#about{
+	padding:100px 0px;
+}
+
+.about_post .fa-ambulance{
+	color:#be63f9;
+	width: 70px;
+	height: 70px;
+	font-size: 35px;
+	text-align: center;
+	line-height: 2;
+	border-radius: 12px;
+	background-color: rgba(190, 99, 249, 0.15);
+}
+
+.about_post .fa-apple-pay{
+	color:#26c6da;
+	width: 70px;
+	height: 70px;
+	font-size: 35px;
+	text-align: center;
+	line-height: 2;
+	border-radius: 12px;
+	background-color: rgba(38, 198, 218, 0.15);
+}
+
+.about_post .fa-amazon-pay{
+	color:#fc573b;
+	width: 70px;
+	height: 70px;
+	font-size: 35px;
+	text-align: center;
+	line-height: 2;
+	border-radius: 12px;
+	background-color: rgba(252, 87, 59, 0.15);
+}
+
+
+.about_post p{
+	color: #565656;
+}
+
+.about_post a{
+	color: #444;
+	text-decoration: none;
+}
+
+/* video sec */
+
+#video_sec{
+	padding: 100px 0px;
+	background-color: #f4f4f4;
+}
+
+
+.case_studie_sec_title h1{
+	text-align: center;
+	font-size: 50px;
+}
+.case_studie_sec_title p{
+	text-align: center;
+}
+
+
+/* Case studies */
+.each_case_studies{
+	position: relative;
+	margin-bottom: 40px;
+}
+.each_case_studies img{
+	width: 100%;
+	height: 400px;
+
+}
+
+.case_studie_overly{
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: .9;
+	display: none;
+	transition: .3s ease;
+	background-image:linear-gradient(135deg, #be63f9 0%, #0449c4 100%);
+}
+
+.case_studie_overly .fas{
+	margin-top:50px;
+	font-size: 30px;
+}
+
+.case_studie_overly p{
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.each_case_studies:hover .case_studie_overly{
+	display: block;
+	padding-top: 100px !important;
+}
+
+
+
